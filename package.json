@@ -1,0 +1,25 @@
+{
+  "name": "angular_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^7.4.6"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.4.6",
+    "@wdio/mocha-framework": "^7.4.6",
+    "@wdio/selenium-standalone-service": "^7.4.2",
+    "@wdio/spec-reporter": "^7.4.3",
+    "@wdio/sync": "^7.4.6",
+    "eslint": "^7.24.0",
+    "eslint-plugin-wdio": "^7.4.2",
+    "prettier": "^2.2.1"
+  }
+}
